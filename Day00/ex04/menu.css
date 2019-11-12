@@ -1,0 +1,33 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDPVfm9kTxnn_Q9rAtb3MyAFGCN_lDrkiYg0EVHXAVIK-Zay4MFA")
+}
+div{
+    margin-left: 15%
+ }
+li {
+    list-style-type: none;
+    /*float: left;*/
+    width: 300px;
+    padding: 20px;
+}
+.m1{
+    margin: 0 auto;
+    width: 2000px;
+   
+}
+.m2{
+    display: none;
+    text-align: left; 
+    margin-left: 20px;
+}
+.menu{
+    background: burlywood; 
+    border-radius: 10px 10px ;      
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+
+}
+li:hover .m2 {
+    display: block;
+}
